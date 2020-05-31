@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.width200{
+  width: 200px !important;
+}
+.width400{
+  width: 400px !important;
+}
+.listCardImage{
+  width: 200px !important;
+  height: 200px !important;
+}
+.gridCardImage{
+  width: 400px !important;
+  height: 400px !important;
+}
+.listCardPrice{
+  font-weight: bold;
+  color: green;
+}
+.listCardName{
+  font-weight: bold;
+}
+.themeButton{
+  font-weight: bold !important;
+  font-size: 30px !important;
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-color: #D8D8D8 !important;
+  border-color: #BCBCBC !important;
+}
+.themeBtnGroup {
+  width: 50%;
+  margin: 0 auto;
+}
+button span {
+  pointer-events: none;
+}
+button img {
+  pointer-events: none;
+}
+.text-divider{margin: 1em 0; line-height: 0; text-align: left;}
+.text-divider span{background-color: white; padding: 0 .5em 0 0;}
+.text-divider:before{ content: " "; display: block; border-top: 2px solid black; border-bottom: 2px solid black;}
